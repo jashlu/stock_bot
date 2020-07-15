@@ -13,11 +13,11 @@ from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 
 
-consumer_key = 'SoG4b1CYPhBoP3K5ey0fC5Ftf'
-consumer_secret = 'jSPrMBXDtEOZWjys2tGykAyxcdYcAcAFe8pSF9UlZqXxwwdHMa'
+consumer_key = 'XXX'
+consumer_secret = 'XXX'
 
-access_token = '1278462614591270914-zA4Kbzd7hhzpPg9D75onik9xQiIPll'
-access_token_secret = 'vE840ve2TuOyK0F15SaEpH7hsqxNSvx3ftwYG0diOqkqL'
+access_token = 'XXX'
+access_token_secret = 'XXX'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
